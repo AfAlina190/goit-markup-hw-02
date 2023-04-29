@@ -11,5 +11,55 @@
     color: #2E2F42;
 }
 
+.menu-link{
+    text-decoration: none;
+}
 
-/*  */
+ul{
+list-style: none;}
+
+
+
+:root{
+    --main-font-family: "Roboto", sans-serif
+    --secondary-font-family: "Roboto", sans-serif
+    --secondary-font-family-family:"Raleway" sans-serif
+    --primary-text-color-theme-dark: color: #FFFFFF;
+    --primary-text-color-theme-light: color: #434455;
+    --secondary-text-color-theme-dark:
+    --secondary-text-color-theme-light: color: #2E2F42;
+    --accent-color:
+}
+
+
+/* Тегу body заданий стиль font-family: "Roboto",
+sans-serif,
+для визначення шрифту на сайті Тегу body заданий стиль color: #434455 для визначення кольору тексту на сайті Тегу body заданий стиль background-color: в який записана css змінна зі значенням #FFFFFF
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+color: #FFFFFF;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #434455;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF; */
