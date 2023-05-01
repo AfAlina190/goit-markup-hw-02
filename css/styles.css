@@ -1,3 +1,9 @@
+/* body-page */
+.page{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF
+}
 /* Header portfolio */
 *body {
 font-family: 'Roboto', sans-serif;
@@ -6,7 +12,27 @@ font-size: 16px;
 background-color: #ffffff;
 }
 
+.logo-link{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
+.logo-part-two{
+color:#2e2f42;
+}
+.link{
+    text-decoration: none;
+}
+
+/* list decoration */
+.list {
+list-style: none;
+}
 .menu-link{
     
     font-family: 'Roboto', sans-serif;
@@ -17,19 +43,10 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
-/* list decoration */
-.menu-list {
-list-style: none;
+.contact-list{
+    background-color: color#2e2f42;
+    
 }
-.menu-link{
-    text-decoration: none;
-}
-
-.menu-link{
-    text-decoration: none;
-}
-
 :root {
     --background-dark: #2e2f42;
     --background-light: #f4f4fd;
@@ -39,35 +56,3 @@ list-style: none;
     --title-color: #2e2f42;
     --descr-color: #434455;
 }
-
-/* Тегу body заданий стиль font-family: "Roboto",
-sans-serif,
-для визначення шрифту на сайті Тегу body заданий стиль color: #434455 для визначення кольору тексту на сайті Тегу body заданий стиль background-color: в який записана css змінна зі значенням #FFFFFF
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-color: #FFFFFF;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #434455;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #2E2F42;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-color: #FFFFFF; */
