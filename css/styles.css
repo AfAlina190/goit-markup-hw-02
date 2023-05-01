@@ -8,7 +8,7 @@
 *body {
 font-family: 'Roboto', sans-serif;
 color: #2E2F42;
-font-size: 16px;
+font-style: normal;
 background-color: #ffffff;
 }
 
@@ -56,3 +56,78 @@ list-style: none;
     --title-color: #2e2f42;
     --descr-color: #434455;
 }
+
+.footer-logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-part-two-footer {
+    color:#f4f4fd;
+}
+
+/*  */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+color: #2E2F42;
+
+/* Header 2 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: #2E2F42;
+
+/* Header 3 */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+
+/* Body */
+.contact-list{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #2E2F42;
+
+}
+
+/* Body Medium */
+.menu-list{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #2E2F42;    
+}
+
+
+
+/* Button Text */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #2E2F42;
+
