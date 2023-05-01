@@ -71,14 +71,15 @@ list-style: none;
     color:#f4f4fd;
 }
 
-/*  */
+/*header  */
+.main-header-text{
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 60px;
-color: #2E2F42;
+color: #2E2F42;    
+}
+
 
 /* Header 2 */
 
@@ -94,28 +95,26 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
-line-height: 24px;
+line-height: 1.2;
 color: #2E2F42;
 
 /* Body */
-.contact-list{
-font-family: 'Roboto';
-font-style: normal;
+.body-adress{
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
-color: #2E2F42;
-
+line-height: 1.5;
+letter-spacing: 0.02em;    
 }
 
+
 /* Body Medium */
-.menu-list{
-font-family: 'Roboto';
-font-style: normal;
+.body-text{
+
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
-color: #2E2F42;    
+line-height: 1.5;
+color: #2E2F42;   
+letter-spacing: 0.02em;
 }
 
 
@@ -125,7 +124,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
 
