@@ -76,27 +76,26 @@ list-style: none;
 
 font-weight: 700;
 font-size: 56px;
-line-height: 60px;
-color: #2E2F42;    
+line-height: 1.07;
+letter-spacing: 0.02em;
 }
 
 
 /* Header 2 */
-
-font-family: 'Roboto';
-font-style: normal;
+.header-pic{
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
-color: #2E2F42;
+line-height: 1.11;
+letter-spacing: 0.02em;    
+}
 
 /* Header 3 */
-font-family: 'Roboto';
-font-style: normal;
+.header-title{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-color: #2E2F42;
+letter-spacing: 0.02em;    
+}
 
 /* Body */
 .body-adress{
@@ -106,27 +105,36 @@ line-height: 1.5;
 letter-spacing: 0.02em;    
 }
 
-
 /* Body Medium */
 .body-text{
 
 font-weight: 500;
 font-size: 16px;
-line-height: 1.5;
-color: #2E2F42;   
+line-height: 1.5;   
 letter-spacing: 0.02em;
 }
 
-
-
 /* Button Text */
-font-family: 'Roboto';
-font-style: normal;
+.button-text{
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
+}
 
-color: #2E2F42;
-
+/* Header 3 */
+.header-title-list{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+/* Body */
+.header-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
