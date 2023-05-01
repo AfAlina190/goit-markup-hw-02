@@ -29,6 +29,13 @@ color:#2e2f42;
     text-decoration: none;
 }
 
+/* button */
+.modal-open-button{
+    background-color:#404bbf;
+}
+.modal-open-button :hover{
+background-color:  #404bbf;
+}
 /* list decoration */
 .list {
 list-style: none;
@@ -47,6 +54,12 @@ list-style: none;
     background-color: color#2e2f42;
     
 }
+
+.adress-font{
+font-style: normal    
+}
+
+
 :root {
     --background-dark: #2e2f42;
     --background-light: #f4f4fd;
@@ -57,15 +70,7 @@ list-style: none;
     --descr-color: #434455;
 }
 
-.footer-logo-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
+
 
 .logo-part-two-footer {
     color:#f4f4fd;
@@ -78,15 +83,21 @@ font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
+
 }
 
-
+.main-background{
+background-color: #2e2f42;    
+}
 /* Header 2 */
 .header-pic{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
-letter-spacing: 0.02em;    
+letter-spacing: 0.02em;
+text-align: center
+
 }
 
 /* Header 3 */
@@ -102,7 +113,8 @@ letter-spacing: 0.02em;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.02em;    
+letter-spacing: 0.02em; 
+color: #434455;
 }
 
 /* Body Medium */
@@ -137,4 +149,15 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer-logo-link {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    background-color: #2e2f42
 }
