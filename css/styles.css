@@ -1,4 +1,11 @@
-/* page-header  */
+/* Header portfolio */
+*body {
+font-family: 'Roboto', sans-serif;
+color: #2E2F42;
+font-size: 16px;
+background-color: #ffffff;
+}
+
 
 .menu-link{
     
@@ -11,25 +18,27 @@
     color: #2E2F42;
 }
 
+/* list decoration */
+.menu-list {
+list-style: none;
+}
 .menu-link{
     text-decoration: none;
 }
 
-ul{
-list-style: none;}
-
-
-
-:root{
-    --main-font-family: "Roboto", sans-serif
-    --secondary-font-family: "Roboto", sans-serif
-    --secondary-font-family-family:"Raleway" sans-serif
-    --primary-text-color-theme-dark: color: #FFFFFF;
-    --primary-text-color-theme-light: color: #434455;
-    --secondary-text-color-theme-light: color: #2E2F42;
-    --accent-color:
+.menu-link{
+    text-decoration: none;
 }
 
+:root {
+    --background-dark: #2e2f42;
+    --background-light: #f4f4fd;
+    --background-white: #ffffff;
+    --primary-btn: #4d5ae5;
+    --pressed-btn: #404bbf;
+    --title-color: #2e2f42;
+    --descr-color: #434455;
+}
 
 /* Тегу body заданий стиль font-family: "Roboto",
 sans-serif,
