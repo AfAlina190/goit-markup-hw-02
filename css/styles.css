@@ -159,5 +159,9 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    background-color: #2e2f42
+    background-color: #2e2f42;
+}
+
+.footer-color{
+    background-color: #2e2f42;
 }
