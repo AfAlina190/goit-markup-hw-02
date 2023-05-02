@@ -36,6 +36,13 @@ color:#2e2f42;
 .modal-open-button :hover{
 background-color:  #404bbf;
 }
+/* contact menu */
+.contact-font{
+ font-style: normal   
+}
+
+
+
 /* list decoration */
 .list {
 list-style: none;
@@ -96,7 +103,8 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center
+text-align: center;
+background-color: #F4F4FD;
 
 }
 
@@ -109,7 +117,7 @@ letter-spacing: 0.02em;
 }
 
 /* Body */
-.body-adress{
+.body-adress {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -164,4 +172,9 @@ letter-spacing: 0.02em;
 
 .footer-color{
     background-color: #2e2f42;
+}
+/* index four-section-title */
+.four-section-title{
+    text-transform: capitalize;
+    color: #2e2f42;
 }
