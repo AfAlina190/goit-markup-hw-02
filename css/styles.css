@@ -62,17 +62,13 @@ list-style: none;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
 }
-.contact-list{
-    background-color:#2e2f42;
-    
-}
+
 
 .adress-font{
 font-style: normal    
@@ -89,7 +85,14 @@ font-style: normal
     --descr-color: #434455;
 }
 
+/* portfolio-card-title */
+.portfolio-card-title{
+color: var(--primary-text-color);
+}
 
+.portfolio-card-text{
+color: var(--secondary-text-color);
+}
 
 .logo-part-two-footer {
     color:#f4f4fd;
@@ -109,7 +112,7 @@ text-align: center;
 .main-background{
 background-color: #2e2f42;    
 }
-/* Header 2 */
+/* Header 2 */ /* index four-section-title */
 .header-pic{
 font-weight: 700;
 font-size: 36px;
@@ -191,15 +194,9 @@ letter-spacing: 0.02em;
     background-color: #2e2f42;
     color: #f4f4fd
 }
-/* index four-section-title */
-.four-section-title{
-    text-transform: capitalize;
-    color: #2e2f42;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em
-}
+
+
+
 
 /* index button */
 .main-button{
