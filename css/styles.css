@@ -41,6 +41,10 @@ background-color:  #404bbf;
  font-style: normal   
 }
 
+.contact-link{
+    color: var(--secondary-text-color);
+}
+
 /* index first section header  colour */
 .font-white-text{
 color: #ffffff;
@@ -56,12 +60,17 @@ list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-     
     letter-spacing: 0.02em;
     color: #2E2F42;
+    
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
 }
 .contact-list{
-    background-color: color#2e2f42;
+    background-color:#2e2f42;
     
 }
 
@@ -147,6 +156,9 @@ font-size: 16px;
 line-height: 1.5;
 align-items: center;
 letter-spacing: 0.04em;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+
 }
 
 /* Header 3 */
