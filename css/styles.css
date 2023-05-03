@@ -33,8 +33,10 @@ color:#2e2f42;
 .modal-open-button{
     background-color:#404bbf;
 }
-.modal-open-button :hover{
+.modal-open-button :hover,
+.modal-open-button :focus {
 background-color:  #404bbf;
+background-color: #404BBF;
 }
 /* contact menu */
 .contact-font{
@@ -43,6 +45,12 @@ background-color:  #404bbf;
 
 .contact-link{
     color: var(--secondary-text-color);
+}
+
+/* index header color second swction */
+.primary-color{
+ color: var(--primary-text-color: #2E2F42);
+   
 }
 
 /* index first section header  colour */
