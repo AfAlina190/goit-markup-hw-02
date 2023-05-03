@@ -62,11 +62,13 @@ list-style: none;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    color: #434455;
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
+    color: #404bbf;
 }
 
 
@@ -179,6 +181,7 @@ letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer-logo-link {
@@ -225,4 +228,7 @@ letter-spacing: 0.02em;
 /*  index hidden header */
 .hidden-header{
     color:#2e2f42;
+}
+.white-background{
+    background-color: #FFFFFF
 }
