@@ -81,7 +81,7 @@ list-style: none;
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
-    color: #404bbf;
+    
 }
 
 
@@ -223,7 +223,10 @@ letter-spacing: 0.02em;
     color: #ffffff;
     cursor: pointer
 }
-
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
 /* portfolio button */
 .filter-btn {
     color: var(--button-color-text);
@@ -244,4 +247,9 @@ letter-spacing: 0.02em;
 }
 .white-background{
     background-color: #FFFFFF
+}
+
+
+.features-title{
+    color: var(--title-color);
 }
