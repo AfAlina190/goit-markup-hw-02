@@ -104,11 +104,11 @@ font-style: normal
 
 /* portfolio-card-title */
 .portfolio-card-title{
-color: var(--primary-text-color);
+color: var(--title-color);
 }
 
 .portfolio-card-text{
-color: var(--secondary-text-color);
+color: var(--descr-color);
 }
 
 .logo-part-two-footer {
