@@ -83,6 +83,8 @@ font-style: normal
     --pressed-btn: #404bbf;
     --title-color: #2e2f42;
     --descr-color: #434455;
+    --button-color-text: #4D5AE5;
+    --button-bg: #F4F4FD;
 }
 
 /* portfolio-card-title */
@@ -205,6 +207,21 @@ letter-spacing: 0.02em;
     color: #ffffff;
     cursor: pointer
 }
+
+/* portfolio button */
+.filter-btn {
+    color: var(--button-color-text);
+    background-color: var(--button-bg);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+
 /*  index hidden header */
 .hidden-header{
     color:#2e2f42;
